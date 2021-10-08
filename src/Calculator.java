@@ -2,7 +2,7 @@ public class Calculator {
     public static void main(String[] args){
         int i = 1;
         System.out.println(i);
-        double d = 1000000000;
+        double d = 1.5;
         System.out.println(d);
         boolean b = true;
         System.out.println(b);
