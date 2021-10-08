@@ -10,5 +10,12 @@ public class Calculator {
         System.out.println(c);
         String s = "Hallo";
         System.out.println(s);
+
+        //modulo
+        boolean even = 2 % 2 == 0;
+        System.out.println(even);
+
+        int e = 2+3;
+        int sub = 3-3;
     }
 }
