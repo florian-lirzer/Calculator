@@ -1,21 +1,31 @@
 public class Calculator {
-    public static void main(String[] args){
-        int i = 1;
-        System.out.println(i);
-        double d = 1.5;
-        System.out.println(d);
-        boolean b = true;
-        System.out.println(b);
-        char c = 'A';
-        System.out.println(c);
-        String s = "Hallo";
-        System.out.println(s);
+    public static void main(String[] args) {
+        int a = 10;
+        int b = 3;
+        printResult(add(a, b));
+        printResult(sub(a, b));
+        printResult(multi(a, b));
+        printResult(div(a, b));
+        printResult(modulo(a, b));
+    }
 
-        //modulo
-        boolean even = 2 % 2 == 0;
-        System.out.println(even);
+    public static void printResult(int result){
+        System.out.println(result);
+    }
 
-        int e = 2+3;
-        int sub = 3-3;
+    public static int add(int a, int b){
+        return a + b;
+    }
+    public static int sub(int a, int b){
+        return a - b;
+    }
+    public static int multi(int a, int b){
+        return a * b;
+    }
+    public static int div(int a, int b){
+        return a / b;
+    }
+    public static int modulo(int a, int b){
+        return a % b;
     }
 }
